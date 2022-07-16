@@ -12,11 +12,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: |
-        1.
-        2.
-        3.
-        ...
+      value: Tell us what you see!
     validations:
       required: true
   - type: textarea
@@ -25,7 +21,11 @@ body:
       label: How can you reproduce this?
       description: "Tell us how this happened. If you don't know, leave this empty."
       placeholder: "Input here."
-      value: "1. <br/> 2. 3."
+      value: |
+        1.
+        2.
+        3.
+        ...
     validations:
       required: false
   - type: input
