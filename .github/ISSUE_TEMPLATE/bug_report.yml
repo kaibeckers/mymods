@@ -23,7 +23,7 @@ body:
       options:
         - Catwalks
         - Abandoned Bases
-      validations:
+    validations:
         required: true
   - type: dropdown
     id: version
