@@ -60,6 +60,14 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. You can find your log files in directory you copy & pasted QMods in. See the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/).
       render: shell
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Extra information
+      description: If you want to add anything, you can do so here.
+      placeholder: Start writing here...
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
