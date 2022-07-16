@@ -50,7 +50,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: What version of the mod are you running? If you are running an outdated version, try installing an newer version to see if it has been resolved already.
       options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
@@ -60,7 +60,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please copy and paste any relevant log output. You can find your log files in directory you copy & pasted QMods in. See the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/).
       render: shell
   - type: checkboxes
     id: terms
