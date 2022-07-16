@@ -20,8 +20,8 @@ body:
     attributes:
       label: How can you reproduce this?
       description: "Tell us how this happened. If you don't know, leave this empty."
-      placeholder: "1. <br/> 2. 3."
-      value: "A bug happened!"
+      placeholder: "Input here."
+      value: "1. <br/> 2. 3."
     validations:
       required: false
   - type: input
