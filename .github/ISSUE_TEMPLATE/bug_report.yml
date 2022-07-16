@@ -1,22 +1,12 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+title: ""
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -27,6 +17,16 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      description: What mod is causing this?
+      options:
+        - Catwalks
+        - Abandoned Bases
+      validations:
+        required: true
+  - type: dropdown
     id: version
     attributes:
       label: Version
@@ -36,16 +36,6 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
