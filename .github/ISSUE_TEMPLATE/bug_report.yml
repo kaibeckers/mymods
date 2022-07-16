@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        If this is your first time contributing, we recommend you read the
   - type: textarea
     id: what-happened
     attributes:
