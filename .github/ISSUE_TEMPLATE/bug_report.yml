@@ -5,6 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Bug Reports
+        Make you read the [common issues list](https://github.com/kaibeckers/mymods/issues/4) first.
         Thanks for taking the time to fill out this bug report!
         If this is your first time contributing, we recommend you read the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/bug-reporting)
   - type: textarea
