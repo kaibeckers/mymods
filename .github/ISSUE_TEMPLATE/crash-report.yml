@@ -1,6 +1,6 @@
-name: Crasg Report
+name: Crash Report
 description: Report & get support for crashes.
-labels: ["bug"]
+labels: ["crash"]
 body:
   - type: markdown
     attributes:
