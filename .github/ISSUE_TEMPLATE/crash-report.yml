@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Crasg Report
+description: Report & get support for crashes.
 labels: ["bug"]
 body:
   - type: markdown
