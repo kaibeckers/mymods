@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        If this is your first time contributing, we recommend you read the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/)
+        If this is your first time contributing, we recommend you read the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/bug-reporting)
   - type: textarea
     id: what-happened
     attributes:
@@ -58,7 +58,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. You can find your log files in directory you copy & pasted QMods in. See the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/).
+      description: Please copy and paste any relevant log output. You can find your log files in directory you copy & pasted QMods in. See the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/bug-reporting).
       render: shell
     validations:
       required: false
