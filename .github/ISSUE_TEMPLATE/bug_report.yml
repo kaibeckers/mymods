@@ -77,10 +77,10 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: terms
+    id: critical
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Is this issue critical/gamebreaking?
+      description: 
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: Yes, it is gamebreaking.
+        - label: No, it is not.
