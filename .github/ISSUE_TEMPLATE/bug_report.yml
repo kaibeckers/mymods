@@ -44,6 +44,12 @@ body:
       options:
         - Catwalks
         - Abandoned Bases
+        - More Compartments
+        - Base Alarms
+        - Decorations Mod port
+        - More Foods
+        - Base Library
+        - Snapping Library
     validations:
         required: true
   - type: input
