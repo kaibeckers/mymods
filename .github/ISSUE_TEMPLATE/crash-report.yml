@@ -1,10 +1,12 @@
----
-name: Crash Report
-about: Report any crashes here. We will try to help you resolve it.
-title: ''
-labels: ''
-assignees: ''
-
----
+name: Bug Report
+description: File a bug report
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: | 
+         ## Common crashes
+         Make you read the [common issues list](https://github.com/kaibeckers/mymods/issues/4) first.
+         Thank you for taking the time to fill out this report! This form is mainly intended for getting support and reporting crashes to the developers.
 
 
