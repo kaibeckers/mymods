@@ -8,5 +8,11 @@ body:
          ## Common crashes
          Make you read the [common issues list](https://github.com/kaibeckers/mymods/issues/4) first.
          Thank you for taking the time to fill out this report! This form is mainly intended for getting support and reporting crashes to the developers.
-
+  - type: input
+    id: input1
+    attributes:
+      label: test
+      description: "hello"
+    validations:
+      required: true
 
