@@ -43,7 +43,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. You can find your log files in directory you copy & pasted QMods in. See the [bug reporting guide](https://kai-beckers.gitbook.io/subnautica/bug-reporting).
+      description: Please copy and paste any relevant log output. You can find your log files in directory you copy & pasted QMods in.
       render: shell
     validations:
       required: false
